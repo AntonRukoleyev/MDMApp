@@ -19,7 +19,7 @@ jobs:
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: 9.0.100-preview.1.23115.2 # Укажите актуальную версию .NET 9.0 (preview)
+        dotnet-version: 9.0.100-preview.1.23115.2
 
     - name: Restore dependencies
       run: dotnet restore MDMApp.sln
